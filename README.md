@@ -60,6 +60,37 @@ Der Container `hello-world` wurde erfolgreich ausgeführt und anschließend regu
 - IT-Monitoring mit Checkmk
 - Netzwerkdiagnose und Fehleranalyse
 - Technische Dokumentation im Bereich Systemintegration
+## Screenshots
+
+### 1. Checkmk Host-Übersicht
+
+Übersicht der überwachten Hosts und ihrer Dienste.
+
+![Checkmk Host-Übersicht](screenshots/01-checkmk-host-overview.png)
+
+### 2. Nginx HTTP – OK
+
+Checkmk prüft die Erreichbarkeit des Nginx-Webservers. Die Anfrage wird mit HTTP `200 OK` beantwortet.
+
+![Nginx HTTP OK](screenshots/02-HTTP%20Docker%20Nginx%20HTTP.png)
+
+### 3. Nginx HTTP – CRIT
+
+Der Nginx-Container wurde kontrolliert gestoppt. Checkmk erkennt den Ausfall und meldet `CRIT` mit `Connection refused`.
+
+![Nginx HTTP CRIT](screenshots/03-nginx-http-check-crit.png)
+
+### 4. Wiederherstellung nach dem Ausfall
+
+Nach dem Neustart des Containers wird die HTTP-Erreichbarkeit erneut geprüft. Erwartetes Ergebnis: `OK` mit HTTP `200 OK`.
+
+![Nginx HTTP Wiederherstellung](screenshots/04-nginx-http-check-recovery.png)
+
+### 5. Checkmk Host-Details
+
+Zusätzliche Ansicht des überwachten Hosts `gate-monitor`.
+
+![Checkmk Host gate-monitor](screenshots/Host%20gate-monitor.png)
 
 ## Autor
 
