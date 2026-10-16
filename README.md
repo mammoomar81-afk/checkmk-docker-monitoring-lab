@@ -34,12 +34,17 @@ Checkmk erkennt den Docker-Daemon und zwei Container. Der Nginx-Container läuft
 
 Der Container `hello-world` wurde erfolgreich ausgeführt und anschließend regulär beendet.
 
+## Durchgeführte Tests
+
+- Kontrollierter Ausfall des Nginx-Containers
+- Erkennung des HTTP-Ausfalls durch Checkmk (`CRIT`)
+- Neustart des Containers und erfolgreiche Wiederherstellung (`OK`)
+- Überprüfung der HTTP-Antwort `200 OK`
+
 ## Geplante Erweiterungen
 
-- Kontrollierter Ausfalltest des Nginx-Containers
-- Überprüfung der Alarmierung in Checkmk
-- Dokumentation der Fehlerbehebung und Wiederherstellung
-- Ergänzung von Screenshots und Konfigurationsbeispielen
+- Überprüfung der Alarmierung und Benachrichtigungen in Checkmk
+- Ergänzung von Screenshots und weiteren Konfigurationsbeispielen
 
 ## Lernziele
 
