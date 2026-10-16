@@ -1,4 +1,5 @@
 
+
 # Checkmk Docker Monitoring Lab
 
 ## Projektbeschreibung
@@ -6,6 +7,12 @@
 In diesem Projekt baue ich eine Linux-basierte Monitoring-Umgebung mit Ubuntu Server, Checkmk und Docker auf.
 
 Ziel ist es, den Zustand des Linux-Servers und seiner Docker-Container zu überwachen. Zusätzlich wird die HTTP-Erreichbarkeit eines Nginx-Webservers geprüft.
+
+## Dokumentation
+
+- [Installation und Konfiguration](installation.md)
+- [Fehleranalyse und Troubleshooting](docs/troubleshooting.md)
+- [Docker Compose-Konfiguration](docker/compose.yaml)
 
 ## Technische Umgebung
 
@@ -59,3 +66,4 @@ Der Container `hello-world` wurde erfolgreich ausgeführt und anschließend regu
 Mammoomar
 
 GitHub: [@mammoomar81-afk](https://github.com/mammoomar81-afk)
+
