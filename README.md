@@ -14,6 +14,7 @@ Ziel ist es, den Zustand des Linux-Servers und seiner Docker-Container zu überw
 - [Fehleranalyse und Troubleshooting](docs/troubleshooting.md)
 - [Docker Compose-Konfiguration](docker/compose.yaml)
 - [Systemarchitektur](docs/architecture.md)
+- [Testdokumentation](docs/testing.md)
 
 ## Technische Umgebung
 
