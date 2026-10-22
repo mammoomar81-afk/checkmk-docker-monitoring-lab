@@ -98,3 +98,13 @@ Mammoomar
 
 GitHub: [@mammoomar81-afk](https://github.com/mammoomar81-afk)
 
+
+## Custom Website with Docker Compose
+
+- Created a custom HTML website (`website/index.html`).
+- Configured Nginx using Docker Compose.
+- Mounted the website directory as read-only.
+- Published the web server on port `8080`.
+- Verified the website using `curl`.
+
+Website URL: http://192.168.10.10:8080
